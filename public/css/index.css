@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Delight-Candles';
+    src: url('../fonts/Delight-Candles.ttf');
+}
+
+@font-face {
+    font-family: 'Coves-Light';
+    src: url('../fonts/Coves\ Light.otf');
+}
+
+@font-face {
+    font-family: 'Coves-Bold';
+    src: url('../fonts/Coves\ Bold.otf');
+}
+
+* {
+    --color-black: #353535;
+    --color-white: #f4e9ff;
+    --color-primary: #2DE1FC;
+    --color-secondary: #16C172;
+    --color-secondary-light: #2AFC98;
+    --color-secondary-dark: #214F4B;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Coves-Bold' serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--color-black)
+}
+
+.content {
+    top: 10rem; left: 10rem;
+    transform: translate(10rem, 10rem);
+}
